@@ -29,15 +29,15 @@
         <img src="./assets/Logo-full.png" alt="Logo-full">
     </div>
     <div class="form">
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto mt-10">
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto mt-10">
             <div class="card-body rounded-3xl">
                 <fieldset class="fieldset">
                 <label class="label font-bold text-neutral">Mobile Number</label>
-                <input type="email" class="input rounded-full bg-base-200" maxlength="11" minlength="11" placeholder="Enter your mobile number" /><br>
+                <input id="input-mobile" type="text" class="input rounded-full bg-base-200" maxlength="11" minlength="11" placeholder="Enter your mobile number" value="01234567890" /><br>
                 <label class="label font-bold text-neutral">4 Digit Pin</label>
-                <input type="password" class="input rounded-full bg-base-200" maxlength="4" minlength="4" placeholder="Enter 4 Digit Pin" />
+                <input id="input-pin" type="password" class="input rounded-full bg-base-200" maxlength="4" minlength="4" placeholder="Enter 4 Digit Pin" />
                 
-                <button class="btn btn-primary mt-4 rounded-full">Login</button>
+                <button id="login-btn" class="btn btn-primary mt-4 rounded-full">Login</button>
                 </fieldset>
             </div>
         </div>
