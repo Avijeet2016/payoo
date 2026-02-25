@@ -22,6 +22,17 @@ document.getElementById('add-money-btn').addEventListener('click', function() {
             from ${addMoneyBank} 
             at ${new Date()}`);
         setBalance(newBalance);
+        
+        const history = document.getElementById('history-container');
+        const newHistory = document.createElement("div");
+        newHistory.innerHTML = `
+        <div class="py-3 mb-2 bg-base-100 card-body rounded-2xl">
+            <p>Add Money from ${addMoneyBank} at ${new Date()}</p>
+        </div>   
+        `;
+
+        history.append(newHistory);
+
     }
     else {
         alert('Invalid Pin');
