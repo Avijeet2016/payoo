@@ -12,7 +12,7 @@ function getBalance() {
 
 function setBalance(value) {
     document.getElementById('balance').innerText = value;
-}
+}   
 
 function showOnly(id) {
     const addMoney = document.getElementById('add-money');

@@ -21,7 +21,7 @@ document.getElementById('cashout-btn').addEventListener('click', function() {
         // document.getElementById('balance').innerText = newBalance;
         setBalance(newBalance);
 
-        const history = document.getElementById('history');
+        const history = document.getElementById('history-container');
         const newHistory = document.createElement('div');
         newHistory.innerHTML = `
         <div class="py-3 mb-2 bg-base-100 card-body rounded-2xl">
